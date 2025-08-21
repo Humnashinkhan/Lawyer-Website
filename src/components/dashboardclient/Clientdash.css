@@ -1,0 +1,13 @@
+.dashboard-container {
+    display: flex;
+  }
+  
+.Clientsidebar {
+    width: 250px; /* Adjust as needed */
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px; /* Adjust as needed */
+  }
+  

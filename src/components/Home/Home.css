@@ -1,0 +1,164 @@
+.Home{
+    Width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+.home_section{
+    Width: 100%;
+    height: 110vh;
+    background-color: skyblue;
+}
+.home_section h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: inherit;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.home_section p{
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+
+}
+.box{
+    width: 500px;
+    height: 620px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 500px;
+    overflow: hidden;
+}
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.toggle-btn {
+    width: 50%;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(30deg,white, #1bb1dc);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.toggle-btn.active {
+    background-color: #1bb1dc;
+    color: white;
+}
+.signup.active,
+.login.active {
+    display: block;
+}
+
+.form-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.signup{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 620px;
+    padding: 0px 20px;
+    transition: 0.5s;
+    color: white;
+
+}
+.login{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+    padding: 0px 20px;
+    transition: 0.5s;
+}
+.checkbox-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: #1bb1dc;
+}
+.input-group{
+     margin-bottom: 10px;
+}
+.input-group {
+    color: #444;
+}
+.input-group .inp{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-top: 5px;
+    color: #444;
+
+}
+.required-symbol { 
+    color: red;
+    margin-left: 2px;
+}
+.submit-inp{
+    background: linear-gradient(30deg,white, #1bb1dc);
+    border: none !important;
+    color: white;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+.inp.submit-inp{
+     margin-top: 15px;
+}
+.bottom-section{
+    margin-top: 10px;
+}
+.forgot-password-link{
+    color: #1bb1dc;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 130px;
+}
+.forgot-password-link:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 780px){
+    .Home{
+        flex-direction: column;
+        height: calc(100vh - 150px);
+    }
+    .home_section{
+        width: 100%;
+    }
+    .home_section h1{
+        font-size: 15px ;
+    }
+    .home_section p{
+        font-size: 10px;
+    
+    }
+    .box{
+        width: 400px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .input-group{
+        margin-bottom: 5px;
+ }
+ .forgot-password-link{
+    font-weight: 400;
+ }
+ 
+}

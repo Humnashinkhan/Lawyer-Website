@@ -1,0 +1,41 @@
+.Sidebar{
+    width: 270px;
+    height: 90vh;
+    background: skyblue;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.text_1{
+   color: #fff;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+
+}
+.list-content a{
+    font-size: bold;
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+    display: flex;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+
+
+}
+.list-content a:hover{
+    background-color: #3d566f;
+}
+.list-content ul{
+    margin-top: 10px;
+    list-style-type: none;
+
+}
+.icon{
+    height: 25px;
+}
+

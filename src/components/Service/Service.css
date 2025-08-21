@@ -1,0 +1,13 @@
+.Service{
+    Width: 100%;
+    height: 70vh;
+    background-color: #fafafa;
+    justify-content: space-around;
+    padding-top: 1em;
+    display: flex;
+}
+.heading{
+   color: #1bb1dc;
+   font-size: 18px;
+   text-align: center;
+}

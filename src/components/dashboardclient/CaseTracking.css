@@ -1,0 +1,57 @@
+.Case-Container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Case-Container h2{
+    color:  #1bb1dc;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.case-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+   color: #3d566f;
+}
+
+.case-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-left: 5px solid #1bb1dc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.case-item:hover {
+    background-color: #f0f0f0;
+}
+
+.case-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: #3d566f;
+
+}
+
+.case-details h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.case-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.case-details ul li {
+    margin-bottom: 5px;
+}
